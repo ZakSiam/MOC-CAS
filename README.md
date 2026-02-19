@@ -7,7 +7,6 @@ The same code/logic was applied to other datasets in the paper.
 ## Repository contents
 
 - `moccas.py` — implementation of the MOC-CAS algorithm
-- `processed.parquet` — processed SARS-CoV-2 3CLPro target dataset containing the five objectives used in the paper
 - `rdkit_desc_parts/` — precomputed RDKit descriptor features (sharded)
   - `feats_part_*_final.npz` (20 shards)
   - `meta_final.npz` (and any other metadata files included)
@@ -15,6 +14,8 @@ The same code/logic was applied to other datasets in the paper.
 - `requirements.txt` — Python dependencies needed to run `moccas.py`
 - `.gitignore` — ignore rules for common generated files (e.g., Python bytecode caches like `__pycache__/` and macOS metadata like `.DS_Store`)
 
+User needs to download the `processed.parquet` file (processed SARS-CoV-2 3CLPro target dataset containing the five objectives used in the paper) from this link: https://drive.google.com/file/d/1tu9cJWut2oSJjJEZl79LM-S3fqYSuDwj/view?usp=drive_link
+This file should be placed at the root of the repository.
 
 ## Environment setup (Conda)
 
